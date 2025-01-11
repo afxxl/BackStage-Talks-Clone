@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* Resets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-font: "Roboto", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* section-1 start */
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .img {
+  width: 420px;
+  height: 532px;
+}
+.main .p1 {
+  color: #251d20;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-bottom: 1.5rem;
+}
+.main .link {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--main-font);
+  font-size: 1rem;
+  background: transparent;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-1 .link-1:hover {
+  text-decoration: underline;
+}
+.spans {
+  color: #fff;
+}
+.section-3 .span-3 {
+  color: #ff608c;
+}
+.section-3 .link-3 {
+  color: #ff608c;
+}
+/* .section-1 { */
+/*   background: #f6e0a4; */
+/* } */
+/* .section-2 { */
+/*   background: #ff608c; */
+/* } */
+/* .section-3 { */
+/*   background: #fff; */
+/* } */
+/* .section-4 { */
+/*   background: #00c1b5; */
+/* } */
+/* .section-5 { */
+/*   background: #ff6519; */
+/* } */
+/* .section-6 { */
+/*   background: #ffbe00; */
+/* } */
+/* .section-7 { */
+/*   background: #1d3fbb; */
+/* } */
+/* .section-8 { */
+/*   background: #e30512; */
+/* } */
+.container {
+  scroll-snap-type: y mandatory;
+}
+.main {
+  scroll-snap-align: start;
+}
+body {
+  background: white;
+  transition: background 1.5s;
+}
