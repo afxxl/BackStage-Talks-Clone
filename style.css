@@ -12,8 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* section-1 start */
-
 .main {
   height: 100vh;
   display: flex;
@@ -61,12 +59,6 @@ html {
   color: #ff608c;
 }
 
-.container {
-  scroll-snap-type: y mandatory;
-}
-.main {
-  scroll-snap-align: start;
-}
 body {
   background: white;
   transition: background 1.3s;
@@ -84,7 +76,7 @@ nav {
   top: 20px;
 }
 nav h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 2;
   margin-left: 2rem;
 }
