@@ -120,6 +120,7 @@ footer .container a {
   cursor: pointer;
   color: #000;
   margin-bottom: 10px;
+  scroll-behavior: smooth;
 }
 .links a:hover {
   text-decoration: underline;
